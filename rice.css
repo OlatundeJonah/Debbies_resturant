@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flexbox;
+}
+header{
+    background-color: #ff453d;
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+.logo{
+    height: 40px;
+    width: 50px;
+}
+.log{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+nav{
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-inline-start: 5px;
+}
+nav ul li a{
+    display: flex;
+    padding: 0 20px;
+    color: black;
+    text-decoration: solid;
+}
+nav ul li a:hover{
+    background-color: rgb(214, 134, 120);
+    color: black;
+}
+nav ul li a:active{
+    background-color: rgb(214, 134, 120);
+    color: black;
+}
+button{
+    color: black;
+    background-color: rgb(181, 214, 181);
+    border: none;
+    height: 30px;
+    width: 90px;
+}
+button:hover{
+    color: black;
+    background-color: rgb(92, 202, 230);
+    border: none;
+}
+.first_sec{
+    background-color: #fdeb5e;
+    width: 100%;
+    padding: 4px;
+    display: flex;
+}
+.web_pic{
+    height: 250px;
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 400px;
+}
+.web_intro{
+    width: 400px;
+    height: 40px;
+    font-size: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+code{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.second_sec{
+    background-color: #004743;
+    padding: 4px;
+    width: 100%;
+    display: flex;
+}
+.web_pic2{
+    height: 250px;
+    width: 300px;
+    padding-left: 500px;
+}
+.web_intro2{
+    width: 400px;
+    height: 40px;
+    font-size: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    background-color: black;
+    padding: 4px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+@media screen and (max-width:767){
+    header{
+        background-color: #ff453d;
+        display: flex;
+        padding: 5px;
+        justify-content: space-between;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+    }
+}
